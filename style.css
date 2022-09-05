@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.nft-preview-card {
+    background-color: hsl(216, 50%, 16%);
+    width: 14rem;
+    padding: 1.3rem;
+    color: hsl(215, 51%, 70%);
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+
+.nft-img-box {  
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nft-img {
+    height: 14rem;
+    border-radius: 5px;
+}
+.view-svg {
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, 0.3);
+    height: 14rem;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 5px;
+}
+
+.nft-name {
+    padding-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.nft-para {
+    padding-top: 15px;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.rate-section {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.eth-icon {
+    margin-right: 5px;
+}
+.nft-prise {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock-icon {
+    margin: 0 4px 0 68px;
+
+}
+.time-left {
+    font-size: 0.8rem;
+}
+
+.line {
+    margin-top: 18px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+    height: 1.3px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+.profile-pic {
+    height: 24px;
+    border: 1.33px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.profile-link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+
+   /* hover state styles */
+
+.view-svg:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 300ms ease-in-out;
+}
+
+.nft-name:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.profile-link:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
